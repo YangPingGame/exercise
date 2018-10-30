@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/userLogin/login",
+    "pages/list/list",
+    "pages/report/report",
+    "pages/mine/mine",
+    "pages/videoinfo/videoinfo",
+    "pages/videotest/videotest",
+    "pages/userRegist/regist",
+    "pages/chooseBgm/chooseBgm",
+    "pages/serochVideo/serochVideo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小慕短视频",
+    "navigationBarTextStyle":"black"
+  },
+  "debug":true
+}

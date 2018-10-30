@@ -1,0 +1,46 @@
+/* pages/userRegist/regist.wxss */
+/* 全局背景色 */
+page {
+  background-color: whitesmoke;
+}
+/* 图片宽度 */
+.login-img {
+  width: 750rpx;
+}
+/* 表单内容 */
+.inputView {
+  background-color: white;
+  line-height: 45px;
+}
+.nameImage, .keyImage{
+  margin-left:22px;
+  width:20px;
+  height:20px;
+}
+.loginLabel {
+  margin: 15px 15px 15px 15px;
+  color: gray;
+  font-size: 15px;
+}
+.inputText {
+  width: 65%;
+  float: right;
+  text-align:right;
+  margin-right:22px;
+  margin-top:11px;
+  font-size:15px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color:gainsboro;
+  margin-top: 1px;
+}
+.loginBtn{
+  width:80%;
+  margin-top:15px;
+}
+.goLoginBtn{
+  width:80%;
+  margin-top:15px;
+}

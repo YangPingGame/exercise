@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view wx:for="{{videoList}}"  class="item-container" style='padding-bottom:10px;'>
+  <view style='width:{{screenWidth}}px;height:210px;' class='back-img'>
+      <image src='{{serverUrl}}{{item.coverPath}}' style='width:{{screenWidth}}px;height:100%;' mode="aspectFit" bindtap='showVideoInfo' data-arrindes="{{index}}"></image>
+  </view>
+  <view class='desc'>
+     <view class='faceName'>
+         <image class='myface' src="{{serverUrl}}{{item.faceImage}}"></image>
+         <view class='nickname'>{{item.nickname}}</view>
+     </view>
+  </view>
+</view>
+<view wx:if="{{videoList == null}}" class='prompt'>
+   <text>好像没有你想要的视频那！</text>
+   <text>快来上传你的精彩吧</text>
+   <text>立即上传</text>
+</view>

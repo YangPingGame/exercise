@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<video src='http://localhost:8081/181010C6WC4T37R4/video/765a9400-6852-4175-880d-ceeb82d72540.mp4'
+muted="{{true}}" initial-time='10' controls='{{false}}' danmu-list='{{danmuList}}' enable-danmu='{{true}}'>
+</video>

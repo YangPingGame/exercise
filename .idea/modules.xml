@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/imooc-videos-dev.iml" filepath="$PROJECT_DIR$/imooc-videos-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-videos-dev-mapper/imooc-videos-dev-mapper.iml" filepath="$PROJECT_DIR$/imooc-videos-dev-mapper/imooc-videos-dev-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-videos-dev-common/imoocvideosdevcommon.iml" filepath="$PROJECT_DIR$/imooc-videos-dev-common/imoocvideosdevcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/imoocvideosdevminiapi.iml" filepath="$PROJECT_DIR$/imooc-videos-dev-mini-api/imoocvideosdevminiapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-videos-dev-pojo/imoocvideosdevpojo.iml" filepath="$PROJECT_DIR$/imooc-videos-dev-pojo/imoocvideosdevpojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-videos-dev-service/imoocvideosdevservice.iml" filepath="$PROJECT_DIR$/imooc-videos-dev-service/imoocvideosdevservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-generatorConfig/mybatisgeneratorConfig.iml" filepath="$PROJECT_DIR$/mybatis-generatorConfig/mybatisgeneratorConfig.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+
+  <!--数据库驱动jar包的真实路径 -->
+  <classPathEntry         location="G:\maven\jar\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar"/>
+
+  <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+
+
+    <property name="beginningDelimiter" value="`"/>
+    <property name="endingDelimiter" value="`"/>
+
+
+    <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+      <property name="mappers" value="com.imooc.utils.MyMapper"/>
+    </plugin>
+
+    <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                    connectionURL="jdbc:mysql://localhost:3306/imooc?serverTimezone=GMT&amp;useSSL=false"
+                    userId="root"
+                    password="123456">
+    </jdbcConnection>
+
+    <!-- 对应生成的pojo所在包 -->
+    <javaModelGenerator targetPackage="com.imooc.pojo" targetProject="src/main/java"/>
+
+    <!-- 对应生成的mapper所在目录 -->
+    <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+
+    <!-- 配置mapper对应的java映射 -->
+    <javaClientGenerator targetPackage="com.imooc.mapper" targetProject="src/main/java"
+                         type="XMLMAPPER"/>
+
+
+    <!-- 指定数据库表 -->
+    <!--<table tableName="bgm"/>-->
+    <!--<table tableName="comments" />-->
+    <!--<table  tableName="search_records" />-->
+    <!--<table  tableName="usersInfo"/>-->
+    <!--<table  tableName="users_fans"/>-->
+    <table  tableName="users_keep_videos" />
+    <!--<table  tableName="users_report" />-->
+    <!--<table  tableName="videos" />-->
+  </context>
+</generatorConfiguration>
